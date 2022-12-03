@@ -11,6 +11,7 @@
 		1F5F72072938F880000E23F2 /* util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F72062938F880000E23F2 /* util.swift */; };
 		1F5F72092938F8BD000E23F2 /* day01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F72082938F8BD000E23F2 /* day01.swift */; };
 		1F5F721129393BB6000E23F2 /* day02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F721029393BB6000E23F2 /* day02.swift */; };
+		1F5F7213293B9B54000E23F2 /* day03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F7212293B9B54000E23F2 /* day03.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,9 @@
 		1F5F720E29393BA5000E23F2 /* day02.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = day02.input; sourceTree = "<group>"; };
 		1F5F720F29393BAE000E23F2 /* day02.test */ = {isa = PBXFileReference; lastKnownFileType = text; path = day02.test; sourceTree = "<group>"; };
 		1F5F721029393BB6000E23F2 /* day02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day02.swift; sourceTree = "<group>"; };
+		1F5F7212293B9B54000E23F2 /* day03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day03.swift; sourceTree = "<group>"; };
+		1F5F7214293B9B67000E23F2 /* day03.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = day03.input; sourceTree = "<group>"; };
+		1F5F7215293B9B70000E23F2 /* day03.test */ = {isa = PBXFileReference; lastKnownFileType = text; path = day03.test; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,7 @@
 				1F5F71FF2938F86C000E23F2 /* main.swift */,
 				1F5F72082938F8BD000E23F2 /* day01.swift */,
 				1F5F721029393BB6000E23F2 /* day02.swift */,
+				1F5F7212293B9B54000E23F2 /* day03.swift */,
 				1F5F720C2938FAD5000E23F2 /* Resourcees */,
 			);
 			path = AoC2022;
@@ -83,6 +88,8 @@
 				1F5F720D29390B19000E23F2 /* day01.input */,
 				1F5F720F29393BAE000E23F2 /* day02.test */,
 				1F5F720E29393BA5000E23F2 /* day02.input */,
+				1F5F7215293B9B70000E23F2 /* day03.test */,
+				1F5F7214293B9B67000E23F2 /* day03.input */,
 			);
 			path = Resourcees;
 			sourceTree = "<group>";
@@ -147,6 +154,7 @@
 			files = (
 				1F5F72002938F86C000E23F2 /* main.swift in Sources */,
 				1F5F72072938F880000E23F2 /* util.swift in Sources */,
+				1F5F7213293B9B54000E23F2 /* day03.swift in Sources */,
 				1F5F721129393BB6000E23F2 /* day02.swift in Sources */,
 				1F5F72092938F8BD000E23F2 /* day01.swift in Sources */,
 			);
