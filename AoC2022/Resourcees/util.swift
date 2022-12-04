@@ -38,3 +38,9 @@ extension String {
         }
     }
 }
+
+extension Range {
+    func contains(otherRange: Range) -> Bool {
+        contains(otherRange.lowerBound) && contains(otherRange.upperBound)
+    }
+}
