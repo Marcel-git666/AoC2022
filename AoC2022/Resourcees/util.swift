@@ -7,13 +7,12 @@
 
 import Foundation
 
-func readFile(_ name:String) ->  String {
+func readFile(_ name: String) -> String {
     let projectURL = URL(fileURLWithPath: #file).deletingLastPathComponent()
     let fileURL = projectURL.appendingPathComponent(name)
     let data = try! Data(contentsOf: fileURL)
     return String(data: data, encoding: .utf8)!
 }
-
 
 extension String {
     var lines: [String] {
@@ -22,10 +21,9 @@ extension String {
 }
 
 extension Int {
-    init?(_ s: Substring) {
-        guard let int = Int(String(s)) else { return nil }
+    init?(_ subString: Substring) {
+        guard let int = Int(String(subString)) else { return nil }
             self = int
-    
     }
 }
 
@@ -44,3 +42,31 @@ extension Range {
         contains(otherRange.lowerBound) && contains(otherRange.upperBound)
     }
 }
+
+struct Stack<Element> {
+  fileprivate var array: [Element] = []
+  
+  mutating func push(_ element: Element) {
+    array.append(element)
+  }
+  
+  mutating func pop() -> Element? {
+    return array.popLast()
+  }
+  
+  func peek() -> Element? {
+    return array.last
+  }
+}
+
+extension Stack: CustomStringConvertible {
+  var description: String {
+    let topDivider = "---Stack---\n"
+    let bottomDivider = "\n-----------\n"
+    
+    let stackElements = array.map { "\($0)" }.reversed().joined(separator: "\n")
+    return topDivider + stackElements + bottomDivider
+  }
+}
+
+

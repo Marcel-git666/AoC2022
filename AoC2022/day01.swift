@@ -13,10 +13,8 @@ enum Day01 {
         
         let result = day01Part1(input1)
         print(result)
-        
         print(day01Part2(input1))
     }
-    
 }
 
 func day01Part1(_ input: String) -> Int {
@@ -34,11 +32,7 @@ func day01Part1(_ input: String) -> Int {
             temp += Int(item)!
         }
     }
-    
-    
     let maximum = elves.max()!
-    
-    
     return maximum
 }
 
@@ -57,13 +51,7 @@ func day01Part2(_ input: String) -> Int {
             temp += Int(item)!
         }
     }
-    
-    
     var sorted = elves.sorted()
     sorted = sorted.reversed()
-    
-    
     return sorted[0]+sorted[1]+sorted[2]
 }
-
-

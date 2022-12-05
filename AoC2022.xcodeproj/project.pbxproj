@@ -12,13 +12,23 @@
 		1F5F72092938F8BD000E23F2 /* day01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F72082938F8BD000E23F2 /* day01.swift */; };
 		1F5F721129393BB6000E23F2 /* day02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F721029393BB6000E23F2 /* day02.swift */; };
 		1F5F7213293B9B54000E23F2 /* day03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F7212293B9B54000E23F2 /* day03.swift */; };
+		1F5F7219293C961F000E23F2 /* day04.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F7218293C961F000E23F2 /* day04.swift */; };
+		1F5F721B293C9F51000E23F2 /* day05.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F721A293C9F51000E23F2 /* day05.swift */; };
+		1F5F721D293C9F5B000E23F2 /* day06.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F721C293C9F5B000E23F2 /* day06.swift */; };
+		1F5F721F293C9F66000E23F2 /* day07.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F721E293C9F66000E23F2 /* day07.swift */; };
+		1F5F7221293C9F72000E23F2 /* day08.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F7220293C9F72000E23F2 /* day08.swift */; };
+		1F5F7223293C9F79000E23F2 /* day09.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F7222293C9F79000E23F2 /* day09.swift */; };
+		1F5F7225293C9F82000E23F2 /* day10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F7224293C9F82000E23F2 /* day10.swift */; };
+		1F5F7227293C9F8F000E23F2 /* day11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F7226293C9F8F000E23F2 /* day11.swift */; };
+		1F5F7229293C9F97000E23F2 /* day12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F7228293C9F97000E23F2 /* day12.swift */; };
+		1F5F722B293C9F9E000E23F2 /* day13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F722A293C9F9E000E23F2 /* day13.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		1F5F71FA2938F86C000E23F2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
+			dstPath = /usr/share/man/man1;
 			dstSubfolderSpec = 0;
 			files = (
 			);
@@ -39,6 +49,30 @@
 		1F5F7212293B9B54000E23F2 /* day03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day03.swift; sourceTree = "<group>"; };
 		1F5F7214293B9B67000E23F2 /* day03.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = day03.input; sourceTree = "<group>"; };
 		1F5F7215293B9B70000E23F2 /* day03.test */ = {isa = PBXFileReference; lastKnownFileType = text; path = day03.test; sourceTree = "<group>"; };
+		1F5F7216293C9609000E23F2 /* day04.test */ = {isa = PBXFileReference; lastKnownFileType = text; path = day04.test; sourceTree = "<group>"; };
+		1F5F7217293C9613000E23F2 /* day04.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = day04.input; sourceTree = "<group>"; };
+		1F5F7218293C961F000E23F2 /* day04.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day04.swift; sourceTree = "<group>"; };
+		1F5F721A293C9F51000E23F2 /* day05.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day05.swift; sourceTree = "<group>"; };
+		1F5F721C293C9F5B000E23F2 /* day06.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day06.swift; sourceTree = "<group>"; };
+		1F5F721E293C9F66000E23F2 /* day07.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day07.swift; sourceTree = "<group>"; };
+		1F5F7220293C9F72000E23F2 /* day08.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day08.swift; sourceTree = "<group>"; };
+		1F5F7222293C9F79000E23F2 /* day09.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day09.swift; sourceTree = "<group>"; };
+		1F5F7224293C9F82000E23F2 /* day10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day10.swift; sourceTree = "<group>"; };
+		1F5F7226293C9F8F000E23F2 /* day11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day11.swift; sourceTree = "<group>"; };
+		1F5F7228293C9F97000E23F2 /* day12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day12.swift; sourceTree = "<group>"; };
+		1F5F722A293C9F9E000E23F2 /* day13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day13.swift; sourceTree = "<group>"; };
+		1F5F722C293C9FB1000E23F2 /* day05.test */ = {isa = PBXFileReference; lastKnownFileType = text; path = day05.test; sourceTree = "<group>"; };
+		1F5F722D293C9FBB000E23F2 /* day05.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = day05.input; sourceTree = "<group>"; };
+		1F5F722E293C9FC5000E23F2 /* day06.test */ = {isa = PBXFileReference; lastKnownFileType = text; path = day06.test; sourceTree = "<group>"; };
+		1F5F722F293C9FD7000E23F2 /* day06.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = day06.input; sourceTree = "<group>"; };
+		1F5F7230293C9FE1000E23F2 /* day07.test */ = {isa = PBXFileReference; lastKnownFileType = text; path = day07.test; sourceTree = "<group>"; };
+		1F5F7231293C9FED000E23F2 /* day07.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = day07.input; sourceTree = "<group>"; };
+		1F5F7232293C9FFB000E23F2 /* day08.test */ = {isa = PBXFileReference; lastKnownFileType = text; path = day08.test; sourceTree = "<group>"; };
+		1F5F7233293CA007000E23F2 /* day08.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = day08.input; sourceTree = "<group>"; };
+		1F5F7234293CA01B000E23F2 /* day09.test */ = {isa = PBXFileReference; lastKnownFileType = text; path = day09.test; sourceTree = "<group>"; };
+		1F5F7235293CA024000E23F2 /* day09.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = day09.input; sourceTree = "<group>"; };
+		1F5F7236293CA02F000E23F2 /* day10.test */ = {isa = PBXFileReference; lastKnownFileType = text; path = day10.test; sourceTree = "<group>"; };
+		1F5F7237293CA038000E23F2 /* day10.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = day10.input; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +109,16 @@
 				1F5F72082938F8BD000E23F2 /* day01.swift */,
 				1F5F721029393BB6000E23F2 /* day02.swift */,
 				1F5F7212293B9B54000E23F2 /* day03.swift */,
+				1F5F7218293C961F000E23F2 /* day04.swift */,
+				1F5F721A293C9F51000E23F2 /* day05.swift */,
+				1F5F721C293C9F5B000E23F2 /* day06.swift */,
+				1F5F721E293C9F66000E23F2 /* day07.swift */,
+				1F5F7220293C9F72000E23F2 /* day08.swift */,
+				1F5F7222293C9F79000E23F2 /* day09.swift */,
+				1F5F7224293C9F82000E23F2 /* day10.swift */,
+				1F5F7226293C9F8F000E23F2 /* day11.swift */,
+				1F5F7228293C9F97000E23F2 /* day12.swift */,
+				1F5F722A293C9F9E000E23F2 /* day13.swift */,
 				1F5F720C2938FAD5000E23F2 /* Resourcees */,
 			);
 			path = AoC2022;
@@ -90,6 +134,20 @@
 				1F5F720E29393BA5000E23F2 /* day02.input */,
 				1F5F7215293B9B70000E23F2 /* day03.test */,
 				1F5F7214293B9B67000E23F2 /* day03.input */,
+				1F5F7216293C9609000E23F2 /* day04.test */,
+				1F5F7217293C9613000E23F2 /* day04.input */,
+				1F5F722C293C9FB1000E23F2 /* day05.test */,
+				1F5F722D293C9FBB000E23F2 /* day05.input */,
+				1F5F722E293C9FC5000E23F2 /* day06.test */,
+				1F5F722F293C9FD7000E23F2 /* day06.input */,
+				1F5F7230293C9FE1000E23F2 /* day07.test */,
+				1F5F7231293C9FED000E23F2 /* day07.input */,
+				1F5F7232293C9FFB000E23F2 /* day08.test */,
+				1F5F7233293CA007000E23F2 /* day08.input */,
+				1F5F7234293CA01B000E23F2 /* day09.test */,
+				1F5F7235293CA024000E23F2 /* day09.input */,
+				1F5F7236293CA02F000E23F2 /* day10.test */,
+				1F5F7237293CA038000E23F2 /* day10.input */,
 			);
 			path = Resourcees;
 			sourceTree = "<group>";
@@ -104,6 +162,7 @@
 				1F5F71F82938F86C000E23F2 /* Sources */,
 				1F5F71F92938F86C000E23F2 /* Frameworks */,
 				1F5F71FA2938F86C000E23F2 /* CopyFiles */,
+				1F5F7238293D3520000E23F2 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -147,6 +206,26 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F5F7238293D3520000E23F2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\n    swiftlint\nelse \n    echo \"warning: Swiftlint not installed\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1F5F71F82938F86C000E23F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -154,9 +233,19 @@
 			files = (
 				1F5F72002938F86C000E23F2 /* main.swift in Sources */,
 				1F5F72072938F880000E23F2 /* util.swift in Sources */,
+				1F5F722B293C9F9E000E23F2 /* day13.swift in Sources */,
+				1F5F7221293C9F72000E23F2 /* day08.swift in Sources */,
+				1F5F721D293C9F5B000E23F2 /* day06.swift in Sources */,
+				1F5F7219293C961F000E23F2 /* day04.swift in Sources */,
+				1F5F7225293C9F82000E23F2 /* day10.swift in Sources */,
 				1F5F7213293B9B54000E23F2 /* day03.swift in Sources */,
+				1F5F7229293C9F97000E23F2 /* day12.swift in Sources */,
 				1F5F721129393BB6000E23F2 /* day02.swift in Sources */,
+				1F5F721B293C9F51000E23F2 /* day05.swift in Sources */,
 				1F5F72092938F8BD000E23F2 /* day01.swift in Sources */,
+				1F5F721F293C9F66000E23F2 /* day07.swift in Sources */,
+				1F5F7223293C9F79000E23F2 /* day09.swift in Sources */,
+				1F5F7227293C9F8F000E23F2 /* day11.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

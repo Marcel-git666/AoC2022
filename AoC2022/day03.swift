@@ -10,14 +10,10 @@ import Foundation
 enum Day03 {
     static func run() {
         let input1 = readFile("day03.input")
-        
-        
         let result = day03Part1(input1)
         print(result)
-        
         print(day03Part2(input1))
     }
-    
 }
 
 func day03Part1(_ input: String) -> Int {
@@ -37,18 +33,15 @@ func day03Part1(_ input: String) -> Int {
             sum += Int((Character(arr).asciiValue! - Character("A").asciiValue!)) + 27
         }
     }
-    
     return sum
 }
 
 func day03Part2(_ input: String) -> Int {
-    
     let lines = input.lines
     var sum = 0
     var elfOne = Set<Character>()
     var elfTwo = Set<Character>()
     var elfThree = Set<Character>()
-    
     for (index, line) in lines.enumerated() {
         if (index+1) % 3 == 2 {
             elfOne = Set(line)
