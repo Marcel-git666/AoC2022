@@ -11,17 +11,29 @@ import Foundation
 
 enum Day06 {
     static func run() {
-        let input = readFile("day06.test")
-        let lines = input.lines
-        print(day06Part1(lines))
-        print(day06Part2(lines))
+        let input = readFile("day06.input")
+        print(input.count)
+        for (ind, _) in input.enumerated() {
+            if ind > input.count - 13 {
+                return
+            }
+            let startIndex = input.index(input.startIndex, offsetBy: ind)
+            let endIndex = input.index(input.startIndex, offsetBy: ind+13)
+            
+            if String(input[startIndex...endIndex]).count == Set(String(input[startIndex...endIndex])).count {
+                print(ind+14)
+                return
+            }
+        }
+        
     }
     
 }
 
-func day06Part1(_ input: [String]) -> Int {
+func day06Part1(_ input: [String.Element]) -> Int {
     
     var sum = 0
+    
     
     
     return sum
