@@ -7,8 +7,6 @@
 
 import Foundation
 
-import Foundation
-
 enum Day06 {
     static func run() {
         let input = readFile("day06.input")
