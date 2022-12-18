@@ -180,7 +180,7 @@ func day08Part2(_ input: String) -> Int {
             let left = lookLeft(x: row, y: col)
             let right = lookRight(x: row, y: col)
             scenicScore.append(up*down*right*left)
-            print("XXX   row: \(row), col: \(col), up: \(up), down: \(down), right: \(right), left: \(left)")
+//            print("XXX   row: \(row), col: \(col), up: \(up), down: \(down), right: \(right), left: \(left)")
         }
     }
     
@@ -193,8 +193,8 @@ func day08Part2(_ input: String) -> Int {
             return lookingDistance
         }
         for col in stride(from: y, through: 0, by: -1) {
-            print("Col je \(col), y je \(y), řádek je \(x), hodnota stromu je \(trees[x][col])")
-            print("lookingDistance je \(lookingDistance)")
+//            print("Col je \(col), y je \(y), řádek je \(x), hodnota stromu je \(trees[x][col])")
+//            print("lookingDistance je \(lookingDistance)")
             
             if trees[x][col] < trees[x][y] {
                 lookingDistance += 1
@@ -207,10 +207,10 @@ func day08Part2(_ input: String) -> Int {
                 
             }
             
-            print("Trees[x][col] je \(trees[x][col])....")
+//            print("Trees[x][col] je \(trees[x][col])....")
         }
         
-        print("souřadnice \(x) a \(y) mají hodnotu \(trees[x][y])")
+//        print("souřadnice \(x) a \(y) mají hodnotu \(trees[x][y])")
         return lookingDistance
     }
     

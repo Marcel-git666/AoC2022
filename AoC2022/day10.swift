@@ -6,3 +6,29 @@
 //
 
 import Foundation
+
+enum Day10 {
+    static func run() {
+        let input = readFile("day07.test")
+        
+        
+    }
+    
+}
+
+func day10Part1(_ input: [String]) -> Int {
+    
+    var sum = 0
+    
+    
+    
+    return sum
+}
+
+func day10Part2(_ input: [String]) -> Int {
+    
+    
+    var sum = 0
+    
+    return sum
+}

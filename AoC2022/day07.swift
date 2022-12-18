@@ -77,7 +77,7 @@ enum Day07 {
                 } else {
                     let temp = String(line.split(separator: " ").last!)
                     print(temp)
-                    subdir = tree.search(name: temp)!
+                    subdir = subdir.search(name: temp)!
                 }
             case "$ ls": print("listing ....")
             default: let components = line.split(separator: " ")
